@@ -23,6 +23,15 @@
           <a href="./index.html" class="logo link"
             >Web<span class="header-span">Studio</span>
           </a>
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="menu-hamburger" width="32" heigh="22">
+              <use href=""></use>
+            </svg>
+          </button>
           <ul class="list-header">
             <li class="list-item">
               <a href="./index.html" class="link boolean page">Studio</a>
@@ -124,6 +133,7 @@
             <li class="images-item">
               <img
                 src="./images/img-1.jpg"
+                srcset="./images/img-1@1x.jpg 1x, ./images/img-1@2x.jpg 2x"
                 alt="computer"
                 width="360"
                 height="300"
@@ -132,6 +142,7 @@
             <li class="images-item">
               <img
                 src="./images/img-2.jpg"
+                srcset="./images/img-2@1x.jpg 1x, ./images/img-2@2x.jpg 2x"
                 alt="phone"
                 width="360"
                 height="300"
@@ -140,6 +151,7 @@
             <li class="images-item">
               <img
                 src="./images/img-3.jpg"
+                srcset="./images/img-3@1x.jpg 1x, ./images/img-3@2x.jpg 2x"
                 alt="computer and phone"
                 width="360"
                 height="300"
@@ -155,6 +167,7 @@
             <li class="img">
               <img
                 src="./images/img-4.jpg"
+                srcset="./images/img-4@1x.jpg 1x, ./images/img-4@2x.jpg 2x"
                 alt="handsome man with hazel eyes, brunette with a beard in a blue shirt"
                 width="264"
                 height="260"
@@ -197,6 +210,7 @@
             <li class="img">
               <img
                 src="./images/img-5.jpg"
+                srcset="./images/img-5@1x.jpg 1x, ./images/img-5@2x.jpg 2x"
                 alt="young, handsome and smiling man with green eyes, brunette with a beard in a blue shirt"
                 width="264"
                 height="260"
@@ -239,6 +253,7 @@
             <li class="img">
               <img
                 src="./images/img-6.jpg"
+                srcset="./images/img-6@1x.jpg 1x, ./images/img-6@2x.jpg 2x"
                 alt="young, pretty woman with hazel eyes, brunette with long hair in a pink shirt"
                 width="264"
                 height="260"
@@ -281,6 +296,7 @@
             <li class="img">
               <img
                 src="./images/img-7.jpg"
+                srcset="./images/img-7@1x.jpg 1x, ./images/img-7@2x.jpg 2x"
                 alt="young, handsome and smiling man with hazel eyes, brunette with a beard in a grey shirt"
                 width="264"
                 height="260"
@@ -526,6 +542,70 @@
         </form>
       </div>
     </div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="close-button" width="8" height="8">
+            <use href="./images/close.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+      </button>
+       <ul class="mobile-list-header">
+            <li class="list-item">
+              <a href="./index.html" class="link boolean page">Studio</a>
+            </li>
+            <li class="list-item">
+              <a href="./portfolio.html" class="link boolean">Portfolio</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="link boolean">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="mobile-list-address">
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="address-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="list mobile-social-media">
+            <li class="footer-social-media-icons">
+              <a href="" class="footer-media-icons">
+                <svg class="footer-icons-style" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-icons">
+              <a href="" class="footer-media-icons">
+                <svg class="footer-icons-style" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-icons">
+              <a href="" class="footer-media-icons">
+                <svg class="footer-icons-style" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-media-icons">
+              <a href="" class="footer-media-icons">
+                <svg class="footer-icons-style" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
