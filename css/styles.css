@@ -840,3 +840,19 @@ img {
   background-color: var(--link-hover-focus);
   cursor: pointer;
 }
+
+.mobile-list-header {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.mobile-address {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.mobile-social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
