@@ -927,6 +927,7 @@ img {
 }
 .mobile-list-address {
   display: flex;
+  flex-direction: column;
   gap: 40px;
   list-style: none;
   transition-property: color;
@@ -934,9 +935,6 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-address {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
   font-style: normal;
   margin-bottom: 48px;
 }
