@@ -374,7 +374,7 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
-.hip {
+.section-third-team {
   display: flex;
   gap: 24px;
 }
@@ -397,7 +397,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
-.section-second-wrist {
+.section-second-job {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
