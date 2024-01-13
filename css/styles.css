@@ -879,6 +879,7 @@ button {
     letter-spacing: 1.12px;
     max-width: 500px;
     margin-bottom: 36px;
+    text-transform: none;
   }
   .list-section-second {
     display: flex;
