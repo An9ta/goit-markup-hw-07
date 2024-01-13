@@ -171,7 +171,7 @@ button {
   .page-link:focus {
     color: var(--link-hover-focus);
   }
-  .page-link-studio {
+  .page {
     color: var(--link-hover-focus);
   }
   .page-link-portfolio {
@@ -791,7 +791,7 @@ button {
   .page-link:focus {
     color: var(--link-hover-focus);
   }
-  .page-link-studio::after {
+  .page::after {
     content: "";
     display: block;
     background-color: var(--link-hover-focus);
