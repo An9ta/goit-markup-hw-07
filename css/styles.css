@@ -175,7 +175,7 @@ button {
     color: var(--link-hover-focus);
   }
   .page-link-portfolio {
-    color: var(--link-hover-focus);
+    color: var(--background-color-section);
   }
   .mobile-list-address {
     display: flex;
@@ -787,18 +787,11 @@ button {
     padding: 24px 0;
     position: relative;
   }
-  .page-link-studio::after {
-    content: "";
-    display: block;
-    background-color: var(--link-hover-focus);
-    height: 4px;
-    border-radius: 2px;
-    position: absolute;
-    width: 100%;
-    bottom: -1px;
-    left: 0px;
+  .page-link:hover,
+  .page-link:focus {
+    color: var(--link-hover-focus);
   }
-  .page-link-portfolio::after {
+  .page-link-studio::after {
     content: "";
     display: block;
     background-color: var(--link-hover-focus);
