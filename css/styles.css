@@ -115,6 +115,9 @@ button {
   transition: transform 250ms ease-in-out;
 }
 .menu-container.is-open {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transform: translateX(0);
 }
 .menu-container .menu-toggle {
@@ -153,7 +156,6 @@ button {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 284px;
 }
 .page-link {
   color: var(--background-color-section);
@@ -201,8 +203,9 @@ button {
   font-style: none;
 }
 .mobile-social-media {
+  max-width: 328px;
   display: flex;
-  gap: 56px;
+  justify-content: space-between;
 }
 .mobile-social-media-list {
   height: 40px;
@@ -431,7 +434,8 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 90%;
+  max-width: 408px;
   min-height: 584px;
   background: var(--modal-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
