@@ -34,14 +34,10 @@
           </button>
           <ul class="list list-header">
             <li class="list-item">
-              <a href="./index.html" class="link page-link"
-                >Studio</a
-              >
+              <a href="./index.html" class="link page-link">Studio</a>
             </li>
             <li class="list-item">
-              <a
-                href="./portfolio.html"
-                class="link page-link page"
+              <a href="./portfolio.html" class="link page-link page"
                 >Portfolio</a
               >
             </li>
@@ -69,22 +65,22 @@
     <main>
       <section class="section section-portfolio">
         <div class="container">
-          <h1 class="array">portfolio</h1>
-          <ul class="list list shoulder">
+          <h1 class="visually-hidden">portfolio</h1>
+          <ul class="list list-button">
             <li class="button-second">
-              <button type="button" class="all all-both">All</button>
+              <button type="button" class="filter-button">All</button>
             </li>
             <li class="button-second">
-              <button type="button" class="all all-both">Web Site</button>
+              <button type="button" class="filter-button">Web Site</button>
             </li>
             <li class="button-second">
-              <button type="button" class="all all-both">App</button>
+              <button type="button" class="filter-button">App</button>
             </li>
             <li class="button-second">
-              <button type="button" class="all all-both">Design</button>
+              <button type="button" class="filter-button">Design</button>
             </li>
             <li class="button-second">
-              <button type="button" class="all all-both">Marketing</button>
+              <button type="button" class="filter-button">Marketing</button>
             </li>
           </ul>
           <ul class="list waist">
@@ -355,24 +351,26 @@
         </div>
       </div>
     </footer>
-     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg class="mobile-close-button" width="8" height="8">
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div>
+        <button class="menu-toggle js-close-menu">
+          <svg class="mobile-close-button" width="8" height="8">
             <use href="./images/close.svg#icon-close-black-18dp-2-1"></use>
           </svg>
-      </button>
-       <ul class="list mobile-list-header">
-            <li class="list-item">
-              <a href="./index.html" class="link page-link page">Studio</a>
-            </li>
-            <li class="list-item">
-              <a href="./portfolio.html" class="link page-link">Portfolio</a>
-            </li>
-            <li class="list-item">
-              <a href="" class="link page-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+        </button>
+        <ul class="list mobile-list-header">
+          <li class="list-item">
+            <a href="./index.html" class="link page-link page">Studio</a>
+          </li>
+          <li class="list-item">
+            <a href="./portfolio.html" class="link page-link">Portfolio</a>
+          </li>
+          <li class="list-item">
+            <a href="" class="link page-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div>
         <address class="mobile-address">
           <ul class="list mobile-list-address">
             <li>
@@ -385,43 +383,46 @@
                 >info@devstudio.com</a
               >
             </li>
-            </ul>
+          </ul>
         </address>
         <ul class="list mobile-social-media">
-            <li class="mobile-social-media-list">
-              <a href="" class="link mobile-socialmedia-icon">
-                <svg class="mobile-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-social-media-list">
-              <a href="" class="link mobile-socialmedia-icon">
-                <svg class="mobile-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-social-media-list">
-              <a href="" class="link mobile-socialmedia-icon">
-                <svg class="mobile-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-social-media-list">
-              <a href="" class="link mobile-socialmedia-icon">
-                <svg class="mobile-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <li class="mobile-social-media-list">
+            <a href="" class="link mobile-socialmedia-icon">
+              <svg class="mobile-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-media-list">
+            <a href="" class="link mobile-socialmedia-icon">
+              <svg class="mobile-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-media-list">
+            <a href="" class="link mobile-socialmedia-icon">
+              <svg class="mobile-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-media-list">
+            <a href="" class="link mobile-socialmedia-icon">
+              <svg class="mobile-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous">
-    </script>
+      crossorigin="anonymous"
+    ></script>
     <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
