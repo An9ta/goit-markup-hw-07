@@ -820,12 +820,15 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  padding-top: 32px;
+  padding-left: 16px;
 }
 .paragraph-text {
   color: var(--section-heading-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-left: 16px;
 }
 .cards-box {
   position: relative;
