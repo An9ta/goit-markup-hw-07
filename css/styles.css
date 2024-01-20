@@ -1016,6 +1016,23 @@ button {
     width: 168px;
     height: 88px;
   }
+  .section-portfolio {
+    padding: 64px 0;
+  }
+  .list-button {
+    padding-left: 91px;
+    margin-bottom: 64px;
+  }
+  .list-photos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .photos-item {
+    max-width: 356px;
+  }
 }
 
 /* desktop */
@@ -1132,5 +1149,19 @@ button {
     gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
     padding-left: 0;
+  }
+  .section-portfolio {
+    padding: 96px 0 120px 0;
+  }
+  .list-button {
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .list-photos {
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+  .photos-item {
+    flex-basis: calc((100% - 48px) / 3);
   }
 }
